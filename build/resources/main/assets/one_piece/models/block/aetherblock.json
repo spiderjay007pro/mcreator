@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "one_piece:blocks/display_aether_portal_block",
+    "up": "one_piece:blocks/unnamed",
+    "north": "one_piece:blocks/unnamed",
+    "east": "one_piece:blocks/unnamed",
+    "south": "one_piece:blocks/unnamed",
+    "west": "one_piece:blocks/unnamed",
+    "particle": "one_piece:blocks/display_aether_portal_block"
+  },
+  "render_type": "solid"
+}

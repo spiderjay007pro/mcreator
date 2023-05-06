@@ -1,0 +1,232 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gomugomunomi",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gomugomunomi"
+    },
+    {
+      "name": "Spikeytrident",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeytrident"
+    },
+    {
+      "name": "Leopard",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leopard"
+    },
+    {
+      "name": "Buddha",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buddha"
+    },
+    {
+      "name": "Mochimochi",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mochimochi"
+    },
+    {
+      "name": "Saddi",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddi"
+    },
+    {
+      "name": "Electricclaw",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricclaw"
+    },
+    {
+      "name": "MiningRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MRKNOCKBACKItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrknockback_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GodswordItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godsword_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigswordItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigsword_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mining",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining"
+    },
+    {
+      "name": "Godsword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godsword"
+    },
+    {
+      "name": "Mrknockback",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrknockback"
+    },
+    {
+      "name": "BigswordRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigsword_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bigsword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigsword"
+    },
+    {
+      "name": "Aetherblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherblock"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.one_piece.mochimochi": "Mochimochi",
+      "item.one_piece.godsword": "Godsword",
+      "item.one_piece.electricclaw": "Electricclaw",
+      "item.one_piece.gomugomunomi": "Gomugomunomi",
+      "block.one_piece.aetherblock": "Aetherblock",
+      "item.one_piece.leopard": "Leopard",
+      "item.one_piece.spikeytrident": "Spikeytrident",
+      "item.one_piece.saddi": "Saddi",
+      "item.one_piece.buddha": "Buddha",
+      "item.one_piece.bigsword": "Bigsword",
+      "item.one_piece.mrknockback": "Mrknockback",
+      "item.one_piece.mining": "Mining"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "one_piece",
+    "modName": "one piece",
+    "version": "1.0.0",
+    "author": "Élève, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.onepiece",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
